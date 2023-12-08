@@ -12404,5 +12404,37 @@
   ],
   "Abstract": "Prototype-based methods use interpretable representations to address the black-box nature of deep learning models, in contrast to post-hoc explanation methods that only approximate such models. We propose the Neural Prototype Tree (ProtoTree), an intrinsically interpretable deep learning method for fine-grained image recognition. ProtoTree combines prototype learning with decision trees, and thus results in a globally interpretable model by design. Additionally, ProtoTree can locally explain a single prediction by outlining a decision path through the tree. Each node in our binary tree contains a trainable prototypical part. The presence or absence of this learned prototype in an image determines the routing through a node. Decision making is therefore similar to human reasoning: Does the bird have a red throat? And an elongated beak? Then it’s a hummingbird! We tune the accuracy-interpretability trade-off using ensemble methods, pruning and binarizing. We apply pruning without sacrificing accuracy, resulting in a small tree with only 8 learned prototypes along a path to classify a bird from 200 species. An ensemble of 5 ProtoTrees achieves competitive accuracy on the CUB-200-2011 and Stanford Cars data sets. Code is available at github.com/M-Nauta/ProtoTree.",
   "Date": "2022-11-14T11:34:04.758Z"
+},
+{
+  "Title": "XAI based model evaluation by applying domain knowledge",
+  "url": "https://ieeexplore.ieee.org/document/9865816",
+  "Year": "2022",
+  "Venue": {
+    "isOld": false,
+    "value": "IEEE"
+  },
+  "Authors": [
+    "K S Srikanth; T K Ramesh; Suja Palaniswamy; Ranganathan Srinivasan"
+  ],
+  "Type of Data": [
+    "Images"
+  ],
+  "Type of Problem": [
+    "Outcome Explanation"
+  ],
+  "Type of Model to be Explained": [
+    "(Deep) Neural Network"
+  ],
+  "Type of Task": [
+    "Classification"
+  ],
+  "Type of Explanation": [
+    "Heatmap"
+  ],
+  "Method used to explain": [
+    "Post-hoc explanation method"
+  ],
+  "Abstract": "Artificial intelligence(AI) is used in decision support systems which learn and perceive features as a function of the number of layers and the weights computed during training. Due to their inherent black box nature, it is insufficient to consider accuracy, precision and recall as metrices for evaluating a model's performance. Domain knowledge is also essential to identify features that are significant by the model to arrive at its decision. In this paper, we consider a use case of face mask recognition to explain the application and benefits of XAI. Eight models used to solve the face mask recognition problem were selected. GradCAM Explainable AI (XAI) is used to explain the state-of-art models. Models that were selecting incorrect features were eliminated even though, they had a high accuracy. Domain knowledge relevant to face mask recognition viz., facial feature importance is applied to identify the model that picked the most appropriate features to arrive at the decision. We demonstrate that models with high accuracies need not be necessarily select the right features. In applications requiring rapid deployment, this method can act as a deciding factor in shortlisting models with a guarantee that the models are looking at the right features for arriving at the classification. Furthermore, the outcomes of the model can be explained to the user enhancing their confidence on the AI model being deployed in the field.",
+  "Date": "2023-12-08T10:43:18.728Z"
 }
 ]

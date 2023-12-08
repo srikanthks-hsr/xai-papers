@@ -12436,5 +12436,38 @@
   ],
   "Abstract": "Artificial intelligence(AI) is used in decision support systems which learn and perceive features as a function of the number of layers and the weights computed during training. Due to their inherent black box nature, it is insufficient to consider accuracy, precision and recall as metrices for evaluating a model's performance. Domain knowledge is also essential to identify features that are significant by the model to arrive at its decision. In this paper, we consider a use case of face mask recognition to explain the application and benefits of XAI. Eight models used to solve the face mask recognition problem were selected. GradCAM Explainable AI (XAI) is used to explain the state-of-art models. Models that were selecting incorrect features were eliminated even though, they had a high accuracy. Domain knowledge relevant to face mask recognition viz., facial feature importance is applied to identify the model that picked the most appropriate features to arrive at the decision. We demonstrate that models with high accuracies need not be necessarily select the right features. In applications requiring rapid deployment, this method can act as a deciding factor in shortlisting models with a guarantee that the models are looking at the right features for arriving at the classification. Furthermore, the outcomes of the model can be explained to the user enhancing their confidence on the AI model being deployed in the field.",
   "Date": "2023-12-08T10:43:18.728Z"
+},
+{
+  "Title": "Grad-CAM for Visualizing Diabetic Retinopathy",
+  "url": "https://ieeexplore.ieee.org/document/9824598",
+  "Year": "2022",
+  "Venue": {
+    "isOld": false,
+    "value": "IEEE"
+  },
+  "Authors": [
+    "Kavya Duvvuri; Savarala Chethana; Sreevathsa Sree Charan; Vemula Srihitha; T. K. Ramesh",
+    "Srikanth KS"
+  ],
+  "Type of Data": [
+    "Images"
+  ],
+  "Type of Problem": [
+    "Model Explanation"
+  ],
+  "Type of Model to be Explained": [
+    "(Deep) Neural Network"
+  ],
+  "Type of Task": [
+    "Classification"
+  ],
+  "Type of Explanation": [
+    "Heatmap"
+  ],
+  "Method used to explain": [
+    "Post-hoc explanation method"
+  ],
+  "Abstract": "Diabetic Retinopathy (DR) is damage to the retina that occurs due to high blood glucose. This disease can lead to early blindness and hence it is important to diagnose it at an earlier stage. The use of artificial intelligence to aid a doctor in identifying such disorders is beneficial as it reduces the time spent by them. State of art model using the convolutional neural network (CNN) has an accuracy of 75%, however, CNNs are black-box models, and it is difficult to interpret their functioning. Hence, the outcome provided by the model cannot be trusted which warrants the use of explainable AI techniques to provide explanations that justify the model’s output. In this paper, we have enhanced the state of art model using a CNN to identify DR which gave an accuracy of 92%. Gradient-Weighted Class Activation Map (Grad-CAM) explainability is used to verify the regions considered significant by the model. The application presents the classification outcome along with explainability thereby aiding the medical practitioners to arrive at a decision.",
+  "Date": "2023-12-08T14:01:31.951Z"
 }
 ]
